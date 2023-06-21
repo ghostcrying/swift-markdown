@@ -1,27 +1,28 @@
 PODS:
-  - cmark-gfm (0.0.1)
-  - Markdown (0.0.1)
+  - cmark-gfm (0.0.3)
+  - Markdown (0.0.1):
+    - cmark-gfm
 
 DEPENDENCIES:
-  - cmark-gfm (from `https://github.com/ghostcrying/swift-cmark.git`, tag `0.0.2`)
+  - cmark-gfm (from `https://github.com/ghostcrying/swift-cmark.git`, tag `0.0.3`)
   - Markdown (from `../../`)
 
 EXTERNAL SOURCES:
   cmark-gfm:
     :git: https://github.com/ghostcrying/swift-cmark.git
-    :tag: 0.0.2
+    :tag: 0.0.3
   Markdown:
     :path: "../../"
 
 CHECKOUT OPTIONS:
   cmark-gfm:
     :git: https://github.com/ghostcrying/swift-cmark.git
-    :tag: 0.0.2
+    :tag: 0.0.3
 
 SPEC CHECKSUMS:
-  cmark-gfm: ae59c490e931c94a06a6189bacac2b5ac42aa6de
-  Markdown: 8490e1ecc6b7ac4360c8c3c5e44ca3a90cbf443a
+  cmark-gfm: 58c77b8b8a9fa0516ea116571dfbdbbc354c93c5
+  Markdown: 2b73bd653a1251a805a68254e559f0094d93e323
 
-PODFILE CHECKSUM: 7fa8c838e0d88759f884ec4c3554cb7011310457
+PODFILE CHECKSUM: a50de179b29db15dfac12fdf01ebacbc53980d27
 
 COCOAPODS: 1.12.0
