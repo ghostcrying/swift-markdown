@@ -8,7 +8,7 @@
  See https://swift.org/CONTRIBUTORS.txt for Swift project authors
 */
 
-import CAtomic
+import cmark_gfm
 
 /// A wrapper for a 64-bit unsigned atomic singleton counter.
 struct AtomicCounter {

@@ -8,9 +8,8 @@
  See https://swift.org/CONTRIBUTORS.txt for Swift project authors
 */
 
-import cmark_gfm
-import cmark_gfm_extensions
 import Foundation
+import cmark_gfm
 
 /// String-based CommonMark node type identifiers.
 ///
